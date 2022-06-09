@@ -1,0 +1,32 @@
+.front {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.front .title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    user-select: none;
+    font-size: 40px;
+    color: #fff;
+}
+
+.front .start {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 87px;
+    height: 40px;
+    background-color: #fecb56;
+    text-align: center;
+}
+
+.start:before {
+    padding-left: 7px;
+    font-size: 25px;
+    color: #c07f21;
+}

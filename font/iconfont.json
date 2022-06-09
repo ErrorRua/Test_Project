@@ -1,0 +1,37 @@
+{
+  "id": "3354317",
+  "name": "作业",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7749520",
+      "name": "16gl-A",
+      "font_class": "16gl-A",
+      "unicode": "eb85",
+      "unicode_decimal": 60293
+    },
+    {
+      "icon_id": "7749528",
+      "name": "16gl-E",
+      "font_class": "16gl-E",
+      "unicode": "eb86",
+      "unicode_decimal": 60294
+    },
+    {
+      "icon_id": "7749530",
+      "name": "16gl-G",
+      "font_class": "16gl-G",
+      "unicode": "eb88",
+      "unicode_decimal": 60296
+    },
+    {
+      "icon_id": "7749540",
+      "name": "16gl-M",
+      "font_class": "16gl-M",
+      "unicode": "eb89",
+      "unicode_decimal": 60297
+    }
+  ]
+}

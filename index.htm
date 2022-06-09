@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./font/icomoon/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/front.css">
+    <link rel="stylesheet" href="css/select_level.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/lizi.css">
+    <link rel="stylesheet" href="css/checkboxes.css">
+    <link rel="stylesheet" href="css/tutorial.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/media.js"></script>
+    <script src="js/gameData.js"></script>
+    <script src="js/Level.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/debounce.js"></script>
+
+</head>
+
+<body>
+    <div class="ckbx-style-8 switch">
+        <input type="checkbox" id="ckbx-style-8-1" value="0" name="ckbx-style-8">
+        <label for="ckbx-style-8-1"></label>
+    </div>
+    <div class="container">
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+        </div>
+        <div class="front">
+            <div class="title iconfont">&#xeb88;&#xeb85;&#xeb89;&#xeb86;</div>
+            <button class="start icon-play3"></button>
+        </div>
+        <div class="select-level" style="display: none;">
+            <button class="close">&#xea40;</button>
+            <div class="select-level-main">
+                <a href="javascript:;" class="left">&#xf0d9;</a>
+                <a href="javascript:;" class="right">&#xf0da;</a>
+                <ul class="content">
+                </ul>
+            </div>
+        </div>
+        <div class="game" style="display: none;">
+            <button class="close btn">&#xea0f;</button>
+            <button class="tutorial">&#xf128;</button>
+            <div class="game-main">
+                <h4 class="game-title"></h4>
+                <div class="grid"></div>
+            </div>
+            <div class="game-controler">
+                <button class="restart">&#xe984;</button>
+                <button class="withdraw">&#xe967;</button>
+            </div>
+        </div>
+
+        <div class="tutorial-content" style="display: none;">
+            <div class="tutorial-grid">
+                <div class="grid-row">
+                    <div class="grid-cell">
+                        <div class="block block-small"></div>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="block block-middle"></div>
+                    </div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell click-cell">
+                        <div class="block block-big" id="click-block"></div>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="block block-small"></div>
+                    </div>
+                </div>
+            </div>
+            <span class="pointer icon-hand-pointer-o">点击</span>
+            <p class="introduction">周围方块受影响变大，相同大小即可通关</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/lizi.js"></script>
+
+</html>
